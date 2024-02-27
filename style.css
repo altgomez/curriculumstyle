@@ -1,6 +1,4 @@
 body {
-    display: flex;
-    flex-direction: column;
     background-color: #f0ffff;
     text-align: center;
     font-family: lucida console;
@@ -20,15 +18,32 @@ h1 {
 }
 
 img {
-    display: flex;
-    justify-content:flex-start;
-    vertical-align: middle;
-    width: calc(100vw*0.3*0.6);
-    border-radius: 999px;
+    width: 60%;
+    border-radius: 50%;
     border-color: #f0ffff;
 }
 
+.contenedor {
+    display: inline-block;
+  width: 30%;
+  vertical-align: middle;
+}
+
+
+.datos {
+    display: inline-block;
+    width: 20%;
+    vertical-align: middle;
+    text-align: left;
+}
+a{
+    line-height: 50px;
+    text-decoration: none;
+    color: black;
+}
+
 li {
+
     line-height: 30px;
 }
 
